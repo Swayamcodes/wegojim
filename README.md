@@ -52,11 +52,6 @@ https://we-go-jim.netlify.app/
 
 ---
 
-## 📸 Screenshots
-
-
-
----
 
 ## 📄 License
 
