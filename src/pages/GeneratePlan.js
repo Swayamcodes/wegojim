@@ -47,7 +47,7 @@ Tone: Friendly, practical, and structured like a coach would explain it.`;
           Authorization: `Bearer ${process.env.REACT_APP_OPENROUTER_KEY}`,
         },
         body: JSON.stringify({
-          model: "openai/gpt-3.5-turbo",
+          model: "mistralai/mistral-7b-instruct",
           messages: [
             { role: "system", content: "You are a fitness coach AI assistant." },
             { role: "user", content: prompt },
